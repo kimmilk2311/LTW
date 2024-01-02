@@ -1,0 +1,180 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Rosario:700");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+.trangchu {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.trangchu .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1481px;
+  height: 758px;
+}
+
+.trangchu .overlap-group {
+  position: relative;
+  height: 758px;
+}
+
+.trangchu .rectangle {
+  position: absolute;
+  width: 1481px;
+  height: 169px;
+  top: 0;
+  left: 0;
+}
+
+.trangchu .line {
+  position: absolute;
+  width: 1481px;
+  height: 636px;
+  top: 155px;
+  left: 0;
+}
+
+.trangchu .dangkytkb {
+  position: absolute;
+  width: 196px;
+  height: 196px;
+  top: 304px;
+  left: 629px;
+  background-color: #80b3ff;
+  border-radius: 20px;
+}
+
+.trangchu .image {
+  position: absolute;
+  width: 144px;
+  height: 113px;
+  top: 42px;
+  left: 26px;
+  object-fit: cover;
+}
+
+.trangchu .thongtindangnhap {
+  position: absolute;
+  width: 196px;
+  height: 196px;
+  top: 304px;
+  left: 185px;
+  background-color: #80b3ff;
+  border-radius: 20px;
+}
+
+.trangchu .img {
+  position: absolute;
+  width: 179px;
+  height: 178px;
+  top: 2px;
+  left: 9px;
+  object-fit: cover;
+}
+
+.trangchu .xemtkb {
+  position: absolute;
+  width: 196px;
+  height: 196px;
+  top: 306px;
+  left: 1073px;
+  background-color: #80b3ff;
+  border-radius: 20px;
+}
+
+.trangchu .image-2 {
+  position: absolute;
+  width: 117px;
+  height: 126px;
+  top: 26px;
+  left: 39px;
+  object-fit: cover;
+}
+
+.trangchu .header {
+  position: absolute;
+  width: 900px;
+  height: 147px;
+  top: 11px;
+  left: 48px;
+  background-color: transparent;
+}
+
+.trangchu .UNVIERSITY-OF {
+  position: absolute;
+  width: 730px;
+  top: 29px;
+  left: 168px;
+  font-family: "Rosario", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.trangchu .image-3 {
+  position: absolute;
+  width: 147px;
+  height: 147px;
+  top: 0;
+  left: 0;
+}
+
+.trangchu .register-schedule {
+  position: absolute;
+  top: 531px;
+  left: 665px;
+  font-family: "Rosario", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.trangchu .consider-schedule {
+  position: absolute;
+  top: 533px;
+  left: 1099px;
+  font-family: "Rosario", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.trangchu .teacher-information {
+  position: absolute;
+  top: 531px;
+  left: 193px;
+  font-family: "Rosario", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
